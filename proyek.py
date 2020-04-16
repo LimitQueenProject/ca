@@ -1,3 +1,5 @@
+#ini bukan punya ku ya
+#ini aku mau jadiin pelajaran aja
 import time, re, sys
 from requests import Session
 s = Session()
