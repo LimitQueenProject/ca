@@ -13,7 +13,7 @@ except:
 	print("\n\t* Only Number *")
 	sys.exit()
 	
-url = "https://www.citcall.com/demo/misscallapi.php"
+url = "https://api.grab.com/grabid/v1/phone/otp"
 
 tkn = s.get(url).text
 token = re.findall(r'id="csrf_token" value="(.*?)">', tkn)[0]
